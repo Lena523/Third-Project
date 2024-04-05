@@ -1432,6 +1432,12 @@ footer .top .contacts .mail a{
         display: inline-block;
     } 
 
+    .container-blog .main-block .first-item p.more-info,
+    .container-blog .main-block .second-item p.more-info,
+    .container-blog .main-block .third-item p.more-info{
+        margin-bottom: 0;
+    }
+
     footer .bottom .about-us .item1{
         display: none;
         margin-right: 0;
@@ -1440,6 +1446,10 @@ footer .top .contacts .mail a{
     footer  .top .contacts{
         grid-template-columns: minmax(max-content, 22%) minmax(max-content, 27%);
         grid-template-rows: 75px;
+    }
+
+    footer{
+        padding-top: 0;
     }
 }
 
